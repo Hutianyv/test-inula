@@ -14,11 +14,12 @@
  */
 
 import Inula from 'openinula';
-import LowcodeEditor from './editor';
+// import LowcodeEditor from './editor';
+import { SplitPaneDemo } from './components/SplitPaneDemo';
 import './index.css';
 
 const App = () => {
-  return <LowcodeEditor />;
+  return <SplitPaneDemo />;
 };
 
 Inula.render(<App />, document.getElementById('root'));
